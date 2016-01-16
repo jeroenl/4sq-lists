@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Lunch in Rotterdam",
+    "list_id": "5641a552498e437b24c29cba",
+    "preferred_time": 1300,
+    "category": "Food",
+    "filters": [
+      {
+        "near": "Rotterdam",
+        "query": "Lunch",
+        "limit": 6
+      },
+      {
+        "ll": "51.9195670,4.4864570",
+        "sortByDistance": 1,
+        "query": "Lunch",
+        "limit": 3
+      }
+    ]
+  },
+  {
+    "name": "Dinner in Rotterdam",
+    "list_id": "5641a74f498e6f6826c530ef",
+    "preferred_time": 2000,
+    "category": "Food",
+    "filters": [
+      {
+        "near": "Rotterdam",
+        "query": "Dinner",
+        "limit": 6
+      },
+      {
+        "ll": "51.9195670,4.4864570",
+        "sortByDistance": 1,
+        "query": "Dinner",
+        "limit": 3
+      }
+    ]
+  },
+  {
+    "name": "Coffee in Rotterdam",
+    "list_id": "56507f4d498e6f6c083db38a",
+    "preferred_time": 1300,
+    "filters": [
+      {
+        "near": "Rotterdam",
+        "query": "Espresso",
+        "limit": 4
+      },
+      {
+        "ll": "51.9195670,4.4864570",
+        "sortByDistance": 1,
+        "query": "Espresso",
+        "limit": 2
+      }
+    ]
+  },
+  {
+    "name": "Lunch in Amsterdam",
+    "list_id": "564bb549498e7b9a3c3f87d6",
+    "preferred_time": 1300,
+    "category": "Food",
+    "filters": [
+      {
+        "near": "Amsterdam",
+        "query": "Lunch",
+        "limit": 6
+      },
+      {
+        "ll": "52.3655290,4.8985300",
+        "sortByDistance": 1,
+        "query": "Lunch",
+        "limit": 3
+      }
+    ]
+  },
+  {
+    "name": "Dinner in Amsterdam",
+    "list_id": "564bb55a498e63e983a10810",
+    "preferred_time": 2000,
+    "category": "Food",
+    "filters": [
+      {
+        "near": "Amsterdam",
+        "query": "Dinner",
+        "limit": 6
+      },
+      {
+        "ll": "52.3655290,4.8985300",
+        "sortByDistance": 1,
+        "query": "Dinner",
+        "limit": 3
+      }
+    ]
+  },
+  {
+    "name": "Burgers",
+    "list_id": "56507a8b498ec1b327ba33b6",
+    "preferred_time": 2000,
+    "category": "Burger Joint",
+    "filters": [
+      {
+        "near": "Rotterdam",
+        "query": "Burger Joint",
+        "limit": 2
+      },
+      {
+        "near": "Amsterdam",
+        "query": "Burger Joint",
+        "limit": 2
+      },
+      {
+        "near": "The Hague",
+        "query": "Burger Joint",
+        "limit": 2
+      }
+    ]
+  },
+  {
+    "name": "Musea",
+    "list_id": "5651ea71498e35196ed619eb",
+    "min_days_since_last_visit": 1000,
+    "category": "Museum",
+    "filters": [
+      {
+        "near": "Rotterdam",
+        "query": "Museums",
+        "radius": 100000,
+        "limit": 3
+      },
+      {
+        "near": "Amsterdam",
+        "query": "Museums",
+        "radius": 100000,
+        "limit": 3
+      },
+      {
+        "near": "The Hague",
+        "query": "Museums",
+        "radius": 100000,
+        "limit": 2
+      },
+      {
+        "near": "Utrecht",
+        "query": "Museums",
+        "radius": 100000,
+        "limit": 2
+      },
+      {
+        "near": "Leiden",
+        "query": "Museums",
+        "radius": 100000,
+        "limit": 2
+      },
+      {
+        "near": "Haarlem",
+        "query": "Museums",
+        "radius": 100000,
+        "limit": 2
+      },
+      {
+        "near": "Arnhem",
+        "query": "Museums",
+        "radius": 100000,
+        "limit": 2
+      }
+    ]
+  }
+]
