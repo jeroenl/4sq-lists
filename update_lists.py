@@ -4,7 +4,6 @@ from collections import defaultdict
 import foursquare
 import requests_cache
 import logging
-import random
 from datetime import datetime, timedelta
 
 #logging.basicConfig(level=logging.DEBUG)
@@ -271,7 +270,7 @@ for venue_list in lists:
         if selected_count < venue_filter['limit']:
             logging.warning('List is too short!')
 
-    random.shuffle(merged_list)
+    merged_list = sorted(merged_list, key=lambda e: -e.get('rating', 6))
 
     additions = update_list(venue_list['list_id'], merged_list)
     all_additions += additions
